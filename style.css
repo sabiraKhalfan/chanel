@@ -1,0 +1,133 @@
+.header1{
+    
+    width: 100%;
+    height:10px;
+    background-color: black;
+}
+.header2{
+    
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height:130px;
+    background-color: #fff;
+    align-items: center;
+  
+}
+.img{ 
+    
+    position:relative;
+    width:100%;
+    height: 400px;
+}
+.img1{
+    
+width:100%;
+max-height: 400px;
+}
+.display{
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkgray;
+    height: 115px;
+    width: 400px;
+    position:absolute;
+    bottom: 70px;
+    margin-left: 37%;
+    text-align: center;
+
+
+}
+.logo{
+   
+    width: 135px;
+    height: 129px;
+}
+
+    
+
+.orderdlist{
+    
+    display:flex;
+
+    justify-content: space-between;
+    
+}
+.list1{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 12px;
+}
+.display{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.btn1{
+    width: 125px;
+    height: 55px;
+    background-color: #fff;
+
+border: none;
+}
+.btn1:hover{
+   text-decoration: underline;
+   
+}
+.img2{
+    width: 100%;
+    max-height: 400px;
+}
+
+.icon{
+    top:10px;
+    /* margin-left:80px; */
+}
+.final{
+    position: relative;
+    height: 280px;
+}
+.container{
+    width: 100%;
+    height: 310px;
+    position: absolute;
+    background-color:#fff;
+    display:inline-flex;
+    justify-content:space-evenly;
+
+}
+#find{
+    width:230px;
+    height:20px;
+    border: none;
+}
+.last{
+    width: 100%;
+    height:500px;
+    color: aliceblue;
+    position: relative;
+}
+.container3{
+    width: 100%;
+    height: 500px;
+    position:absolute;
+    background-color: black;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.unorderd{
+    display:flex;
+    flex-direction: column;
+    justify-content:column
+}
+.listn{
+    list-style: none;
+    color: gray;
+}
+.listn:hover{
+    text-decoration: underline;
+}
+.footer1{
+    height:200px;
+    width:100px;
+    background-color: aquamarine;
+}
+
