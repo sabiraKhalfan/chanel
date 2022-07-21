@@ -1,19 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 0;
+    padding:0;
+    
+}
 .header1{
     
     width: 100%;
     height:10px;
     background-color: black;
+    position: fixed;
+    z-index: 2;
+    top: 0;
 }
 .header2{
-    
+    position:fixed;
+    z-index: 1;
     display: flex;
     justify-content:space-between;
     width: 100%;
-    height:130px;
+    height:100px;
     background-color: #fff;
     align-items: center;
+    top: 0px;
   
 }
+
 .img{ 
     
     position:relative;
@@ -38,9 +53,9 @@ max-height: 400px;
 
 }
 .logo{
-   
+     margin-left:105px;
     width: 135px;
-    height: 129px;
+    height: 98px;
 }
 
     
@@ -48,7 +63,7 @@ max-height: 400px;
 .orderdlist{
     
     display:flex;
-
+    margin-top: 100px;
     justify-content: space-between;
     
 }
@@ -66,6 +81,7 @@ max-height: 400px;
     width: 125px;
     height: 55px;
     background-color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 
 border: none;
@@ -81,11 +97,13 @@ border: none;
 
 .icon{
     top:10px;
-    /* margin-left:80px; */
+
+     margin-right: 50px;
 }
 .final{
     position: relative;
     height: 280px;
+    z-index: 5px;
 }
 .container{
     width: 100%;
@@ -94,6 +112,7 @@ border: none;
     background-color:#fff;
     display:inline-flex;
     justify-content:space-evenly;
+   
 
 }
 #find{
@@ -114,7 +133,7 @@ border: none;
     background-color: black;
     display: inline-flex;
     justify-content: space-evenly;
-}
+    }
 .unorderd{
     display:flex;
     flex-direction: column;
